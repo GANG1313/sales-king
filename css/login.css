@@ -1,0 +1,348 @@
+@charset "utf-8";
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.login_page {
+  width: 400px;
+  background-color: #fff;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px;
+  z-index: 300;
+  border-radius: 10px;
+  border: 1px solid #BABABA;
+  box-sizing: border-box;
+}
+.sign_up_page {
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sign_up_page::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+  display: block;
+  margin: 28px 0 0;
+}
+.header-logo {
+  display: block;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 37px;
+}
+.input_section {
+  position: relative;
+  display: inline-block;
+}
+.input_section input{
+  width: 100%;
+  height: 40px;
+  border-color: #D1D1D1;
+  background-position:center left 10px; 
+  background-repeat:no-repeat;
+  padding: 4px 40px;
+}
+.input_section input.id_input {
+  border-radius: 5px 5px 0 0;
+  border-bottom: 0;
+}
+.input_section input.pw_input {
+  border-radius: 0 0 5px 5px;
+}
+
+.input_section input[type="text"]{
+  background-image : url(../images/id_ico.png); 
+}
+.input_section input[type="password"]{
+  background-image : url(../images/password_ico.png); 
+}
+.input_section input::placeholder {
+  color: #CCCCCC;
+  font-size: 15px;
+}
+.id_btnClear{
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 25px;
+  height: 25px;
+  margin: 12px 0;
+  background: url(../img/login/login_cencle.png) center center no-repeat;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.password_btnClear{
+  position: absolute;
+  right: 0px;
+  width: 25px;
+  height: 25px;
+  margin: 12px 0;
+  background: url(../img/login/login_cencle.png) center center no-repeat;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.text_button{
+  text-align: center;
+  width: 100%;
+  background-color: #6666F8;
+  border: 1px solid #6666F8;
+  padding: 10.5px 0;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.sign_btn{
+  background-color: #ACACAC;
+  border: 1px solid #ACACAC;
+  margin-bottom: 10px;
+}
+.purple_btn {
+  background-color: #6666F8;
+  border: 1px solid #6666F8;
+}
+.gray-btn {
+  background-color: #D5D5D5;
+  border: 1px solid #D5D5D5;
+  color: #747474;
+}
+.login_footer{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 35px;
+  color: #ACACAC;
+  width: 400px;
+  margin: 0 auto;
+  padding: 28px 20px 0;
+}
+.sns_tit {
+  text-align: left;
+}
+.sns_tit > p {
+  font-size: 12px;
+  margin: 10px 0 15px;
+}
+.sns_button li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-bottom: 15px;
+}
+.sns_button .facebook_btn span {
+  color: #fff;
+}
+
+.sns_button li > img {
+  margin-right: 10px;
+}
+
+.sns_button .kakao_btn {
+  background-color: #FFDD00;
+}
+.sns_button .facebook_btn {
+  background-color: #1977F3;
+}
+.sns_button .google_btn {
+  background-color: #fff;
+  border: 1px solid #D4D4D4;
+}
+
+/* 회원가입-약관동의 */
+.sign_up_agreement {
+  width: 400px;
+  background-color: #fff;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Sign-Up-step {
+  justify-content: space-between;
+}
+
+.Sign-Up-step .step-tit > p {
+  font-size: 12px;
+}
+
+.Sign-Up-step > .active .step-check {
+  border: 1px solid #DC000C;
+}
+
+.Sign-Up-step > .active .step-check::before {
+  border: 1px solid #DC000C;
+  border-width: 0 0 1px 1px;
+}
+
+.Sign-Up-step .step-check {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #909598;
+  position: relative;
+  margin-right: 10px;
+}
+
+.Sign-Up-step .step-check::before {
+  content: "";
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  width: 9px;
+  height: 6px;
+  border: 1px solid #909598;
+  border-width: 0 0 1px 1px;
+  transform: translate(-6px, -5px) rotate(-40deg);
+}
+
+.Sign-Up-step i {
+  content: "";
+  background: url(../images/step_arrow.png) no-repeat center;
+  width: 5px;
+  height: 10px;
+  display: block;
+}
+
+.agreement_top {
+  width: 100%;
+  border: 1px solid #BABABA;
+  border-radius: 10px;
+  padding: 4px 5px;
+  margin: 20px 0;
+}
+
+.scroll-tit {
+  width: 100%;
+  border-bottom: 1px solid #BABABA;
+  padding: 5px 9px;
+}
+
+.scroll-tit h1 {
+  font-size: 12px;
+}
+
+.scroll-bx {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #C7C7C7;
+}
+
+.scroll-y {
+  overflow-y: scroll;
+  max-height: 215px;
+  height: 215px;
+  padding: 23px 9px;
+}
+
+.scroll-y h2 {
+  text-align: center;
+}
+
+.scroll-y h4 {
+  font-size: 12px;
+  margin: 6px 0 3px;
+}
+
+.scroll-y p {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.two-button {
+  gap: 20px;
+}
+
+.enter_information_sel {
+  padding-top: 20px !important;
+}
+
+.enter_information_sel li input {
+  height: 35px;
+  border: 1px solid #D0D0D0;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.enter_information_sel li input.t-center::placeholder {
+  text-align: center;
+}
+
+.enter_information_sel li input::placeholder {
+  font-size: 12px;
+}
+
+.enter_information_sel li h4 {
+  margin-bottom: 10px;
+}
+
+.enter_information_sel li p {
+  margin-bottom: 17px;
+  color: #666;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .header-logo {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 400px){
+  #body {
+    padding-top: 50px 0 !important;
+  }
+  .page1 {
+    padding: 15px;
+  }
+  .login_page,
+  .login_footer {
+  width: 100%;
+  }
+  .easy_login{
+    display: block;
+    padding-bottom: 60px;
+  }
+  .sns_login{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .digital_login{
+    display: block;
+    width: 100%;
+  }
+  .login_line{
+    display:none;
+  }
+  .login_banner{
+    width: 100%;
+    height: 70px;
+  }
+  .sign_up_page {
+    width: 100%;
+  }
+  .login_footer {
+    padding: 28px 0 0;
+  }
+  .sign_up_agreement {
+    width: 100%;
+  }
+}
