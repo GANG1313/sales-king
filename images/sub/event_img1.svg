@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <g id="그룹_1097" data-name="그룹 1097" transform="translate(-320 -238)">
+    <rect id="사각형_1714" data-name="사각형 1714" width="400" height="200" rx="5" transform="translate(320 238)" fill="#f98387"/>
+    <text id="판매왕_리뉴얼_이벤트" data-name="판매왕 리뉴얼 이벤트" transform="translate(350 294)" fill="#fff" font-size="22" font-family="AppleSDGothicNeo-Light, Apple SD Gothic Neo" font-weight="300" letter-spacing="-0.1em"><tspan x="0" y="0">판매왕</tspan><tspan y="0" font-family="Helvetica-Light, Helvetica"> </tspan><tspan y="0">리뉴얼</tspan><tspan y="0" font-family="Helvetica-Light, Helvetica"> </tspan><tspan y="0">이벤트</tspan></text>
+    <text id="아직_참여_안하셨다구요_" data-name="아직 참여 안하셨다구요?" transform="translate(350 338)" fill="#fff" font-size="32" font-family="AppleSDGothicNeo-Bold, Apple SD Gothic Neo" font-weight="700" letter-spacing="-0.1em"><tspan x="0" y="0">아직</tspan><tspan y="0" font-family="Helvetica-Bold, Helvetica"> </tspan><tspan y="0">참여</tspan><tspan y="0" font-family="Helvetica-Bold, Helvetica"> </tspan><tspan y="0">안하셨다구요</tspan><tspan y="0" font-family="Helvetica-Bold, Helvetica">?</tspan></text>
+    <text id="이벤트_기간_" data-name="이벤트 기간 " transform="translate(350 393)" fill="#fff" font-size="14" font-family="AppleSDGothicNeo-Bold, Apple SD Gothic Neo" font-weight="700" letter-spacing="-0.1em"><tspan x="0" y="0">이벤트</tspan><tspan y="0" font-family="Helvetica-Bold, Helvetica"> </tspan><tspan y="0">기간</tspan><tspan y="0" font-family="Helvetica-Bold, Helvetica"> </tspan></text>
+    <text id="_2021._01._01._2021._12._31." data-name="2021. 01. 01. ~ 2021. 12. 31." transform="translate(422 393)" fill="#fff" font-size="14" font-family="Helvetica" letter-spacing="-0.1em"><tspan x="0" y="0">2021. 01. 01. ~ 2021. 12. 31.</tspan></text>
+    <line id="선_828" data-name="선 828" x2="164" transform="translate(350.5 363.5)" fill="none" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>

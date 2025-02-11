@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>판매왕</title>
+  <link rel="stylesheet" href="../css/contents.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="../css/jquery-ui.css">
+  
+  <script src="../js/jQuery/jquery-ui.js" type="text/javascript"></script>
+  <script src="../js/jQuery/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="../js/common.js"></script>
+  
+  <!-- 헤더부분에 삽입 -->
+</head>
+
+<body class="login">
+  <div id="wrap" class="wrap">
+    <div id="body" style="padding: 90px 0;">
+      <div class="page1">
+        <div>
+          <h1 class="header-logo">판매왕</h1>
+          <div class="sign_up_agreement">
+            <ul class="Sign-Up-step company-manager-step d-flex">
+              <li>
+                <div class="step-tit d-flex">
+                  <div class="step-check"></div>
+                  <p>약관 동의</p>
+                </div>
+              </li>
+              <i></i>
+              <li class="active">
+                <div class="step-tit d-flex">
+                  <div class="step-check"></div>
+                  <p>내용 입력</p>
+                </div>
+              </li>
+              <i></i>
+              <li>
+                <div class="step-tit d-flex">
+                  <div class="step-check"></div>
+                  <p>가입완료</p>
+                </div>
+              </li>
+            </ul>
+            <ul class="enter_information_sel">
+              <li><h4>회원정보</h4></li>
+              <li><input type="text" id="id_input" placeholder="이름"></li>
+              <li><input type="text" id="id_input" placeholder="아이디"></li>
+              <li><p class="idNotice" style="font-size: 10px;">6~12자 영문, 숫자로 입력해 주세요</p></li>
+              <li><input type="password" id="id_input" placeholder="비밀번호"></li>
+              <li><input type="password" id="id_input" placeholder="비밀번호 확인"></li>
+              <li><p class="pwdNotice" style="font-size: 10px;">비밀번호는 영문 대소문자, 숫자, 특수문자(!,@,#,$,%)를 혼합하여 8~20자로
+                  입력해주세요</p>
+              </li>
+              <li>
+                <h4>주소</h4>
+              </li>
+              <li class="d-flex gap-20">
+                <input type="text" id="id_input" class="t-center" placeholder="49082" >
+                <input type="text" id="id_input" class="t-center" placeholder="대구광역시 중구 동성로1길 52">
+              </li>
+              <li>
+                <input type="text" id="id_input" class="t-center" placeholder="3층 주식회사 한국스마트폰거래소">
+              </li>
+              <li>
+                <h4>연락처</h4>
+              </li>
+              <li class="d-flex gap-20">
+                <input type="text" id="id_input" class="t-center" placeholder="010">
+                <input type="text" id="id_input" class="t-center" placeholder="1234">
+                <input type="text" id="id_input" class="t-center" placeholder="5678">
+              </li>
+              <li><p class="phoneNotice" style="font-size: 10px;">정확한 연락처를 입력하여 주세요 비밀번호 찾기 및 일부 서비스 이용에는
+                본인과의 연락이 필요합니다.</p>
+              </li>
+              <li>
+                <h4>추천인 정보</h4>
+              </li>
+              <li><input type="text" id="id_input" placeholder="아이디"></li>
+            </ul>
+            <div class="two-button d-flex">
+              <div class="signup_button text_button gray-btn">
+                  이전
+              </div>
+              <div class="signup_button text_button purple_btn" onclick="location.href='../login/registrationcomplete.html';">
+                완료
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    </div>
+  </div>
+</body>
+
+
+</html>
